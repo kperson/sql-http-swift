@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-http-comptabaility-base",
+        "repositoryURL": "https://github.com/kperson/swift-request-adapter-base.git",
+        "state": {
+          "branch": null,
+          "revision": "ec13a3d0cbd878c9927bbb2419b5508e9a29240e",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

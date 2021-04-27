@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  mysql:
+    hostname: sql-http-swift-mysql
+    image: mysql:5.7
+    environment:
+        MYSQL_ROOT_PASSWORD: test_password_root
+        MYSQL_DATABASE: test_db
+        MYSQL_USER: test_user
+        MYSQL_PASSWORD: test_password
+  sql_http:
+    hostname: sql-http-swift-api
+    ports:
+      - '8083:8080'
+    environment:
+      PORT: '8080'
+    image: kperson/sql-http
